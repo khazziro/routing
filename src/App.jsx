@@ -1,11 +1,14 @@
-import './App.css';
+import { GoBell } from "react-icons/go";
 import Button from "./button.jsx";
 
 function App() {
   return (
     <div>
       <div>
-        <Button success outline rounded>Click!</Button>
+        <Button success outline rounded>
+          <GoBell />
+          Click!
+        </Button>
       </div>
       <div>
         <Button warning>Buy now!</Button>
@@ -14,13 +17,16 @@ function App() {
         <Button secondary>See Deal!</Button>
       </div>
       <div>
-        <Button danger outline>Hide Ads!</Button>
+        <Button danger outline>
+          Hide Ads!
+        </Button>
       </div>
       <div>
-        <Button primary rounded>Test!</Button>
+        <Button primary rounded>
+          Test!
+        </Button>
       </div>
     </div>
-
   );
 }
 
