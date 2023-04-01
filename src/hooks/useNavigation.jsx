@@ -5,4 +5,4 @@ const useNavigation = () => {
   return useContext(NavigationContext);
 };
 
-export default useNavigation();
+export default useNavigation;
